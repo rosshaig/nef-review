@@ -59,7 +59,8 @@ header {
 
 nav ul {
   list-style: none;
-  float: right;
+  float: left;
+  width: 60%;
 }
 
 nav li {
@@ -86,7 +87,7 @@ footer {
   width: 100%;
   height: 40px;
   background-color: black;
-  
+
 }
 
 
@@ -132,7 +133,7 @@ p {
 }
 
 .logo {
-  width: 30%;
+  width: 20%;
   float: left;
   margin: 10px;
 }
