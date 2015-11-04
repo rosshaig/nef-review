@@ -23,4 +23,13 @@ jQuery(document).ready(function($){
 			( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
 		});
 	}
+
+	// init controller
+	var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+
+	// build scenes
+	new ScrollMagic.Scene({triggerElement: ".parallax-parent"})
+		.setTween(".parallax-image", {y: "80%", ease: Linear.easeNone})
+		.addTo(controller);
+
 });
