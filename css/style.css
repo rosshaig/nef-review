@@ -113,6 +113,10 @@ nav li {
     position: absolute;
   }
 
+  .parallax-content-food {
+    position: absolute;
+  }
+
   .parallax-image-podcast {
     height: 200%;
     position: relative;
@@ -130,6 +134,17 @@ nav li {
     background-image: url('../images/true-cost-food.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
+  }
+
+
+  .parallax-image-social {
+    height: 200%;
+    position: relative;
+    top: -50%;
+    background-image: url('../images/future-social-security.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
     background-size: contain;
   }
 
@@ -272,6 +287,18 @@ section.trigger {
   box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
   /*border-top: 10px solid white;*/
 }
+
+.social-title {
+  font-family: 'Fjalla One' sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #c2daef;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  /*border-top: 10px solid white;*/
+}
+
 
 .podcast {
   font-size: 20px;
