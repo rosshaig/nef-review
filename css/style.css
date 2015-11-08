@@ -46,15 +46,26 @@ body {
 }
 
 header {
-  height: 75px;
+  height: 20vh;
   top: 0;
   position: fixed;
   margin-top: 0px;
-  margin-bottom: 75px;
+  /*margin-bottom: 75px;*/
   width: 100%;
-  background-color: black;
+  background-color: #FFF;
   color: white;
   z-index: 9999999;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,.1);
+}
+
+header.sticky {
+  /*font-size: 24px;
+  line-height: 48px;*/
+  height: 15vh;
+  background: #FFF;
+  text-align: left;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,.1);
 }
 
 nav ul {
@@ -74,6 +85,13 @@ nav li {
   position: relative;
 	overflow: hidden;
 }
+
+.parallaxParent > * {
+  height: 200%;
+  position: relative;
+  top: -100%;
+}
+
 .parallax-image {
 	height: 200%;
 	position: relative;
@@ -81,17 +99,45 @@ nav li {
 }
 .parallax-content {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
 }
 
-main {
-  margin-top: 75px;
-  padding: 100px 30px 100px 30px;
+.parallax-parent-podcast {
+  position: relative;
+	overflow: hidden;
+}
 
+  .parallax-content-podcast {
+    position: absolute;
+  }
+
+  .parallax-image-podcast {
+    height: 200%;
+    position: relative;
+    top: -50%;
+    background-image: url('../images/breaking-the-news.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .parallax-image-food {
+    height: 200%;
+    position: relative;
+    top: -50%;
+    background-image: url('../images/true-cost-food.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+main {
+  padding: 100px 0 100px 0;
   /*background-position: center bottom;
   background-attachment: fixed;*/
+  margin-top: 0px;
   width: 100%;
   text-align: center;
   text-transform: uppercase;
@@ -100,7 +146,15 @@ main {
 main .parallax-image {
   background-image: url('../images/welcome.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  /*background-size: cover;*/
+}
+
+section .parallax-image {
+  background-image: url('../images/thank-you-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 footer {
@@ -109,42 +163,227 @@ footer {
   background-color: black;
 
 }
+/*
+section.trigger {
+  width: 100%;
+  padding: 0px;
+  height: 400px;
+
+}*/
 
 
 .logo {
-  width: 20%;
-  float: left;
-  margin: 10px;
+  max-width: 400px;
+  height: 100%;
+  margin: 0 auto;
+  background-image: url("../images/nef_logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .logo img {
-  max-height: 60px;
+  max-height: 100px;
 }
 
+#plane {
+  left: -120px;
+  position: absolute;
+}
+
+.letter-fly {
+  /*height: 100vh;*/
+
+}
 
 .introduction {
+  font-family: 'Fjalla One' sans-serif;
   text-align: center;
-  background-color: #a8c8e5;
-  padding: 20px;
-  border-top: 10px solid white;
+  color: white;
+  background-color: #fdcad0;
+  padding: 30px;
+  width: 100%;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  /*border-top: 10px solid white;*/
 }
 
-.director-letter {
-  background-color: #faa639;
+.introduction-2 {
+  font-family: 'Fjalla One' sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #f998aa;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  /*border-top: 10px solid white;*/
+}
+
+.timeline-title {
+  font-family: 'Fjalla One' sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #ffcf9c;
   padding: 20px;
-  border-top: 10px solid white;
+  width: 100%;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  /*border-top: 10px solid white;*/
+}
+
+.timeline-subtitle {
+  font-family: 'Fjalla One' sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #fda54a;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  /*border-top: 10px solid white;*/
+}
+
+
+
+.quote {
+  text-align: center;
+  font-size: 30px;
+  background-color: #f89abf;
+  width: 100%;
+  padding: 30px 100px;
+  color: white;
+}
+
+.podcast-title {
+  font-family: 'Fjalla One' sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #f65831;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  /*border-top: 10px solid white;*/
+}
+
+.food-title {
+  font-family: 'Fjalla One' sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #f998aa;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  /*border-top: 10px solid white;*/
+}
+
+.podcast {
+  font-size: 20px;
+  /*background-color: #FFF;*/
+  padding: 20px;
+}
+
+.podcast-text {
+  width: 70%;
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+
+
+.parallax-image-podcast {
+	height: 200%;
+	position: relative;
+	top: -100%;
+}
+
+.parallax-image-food {
+	height: 200%;
+	position: relative;
+	top: -100%;
+}
+
+
+.director-letter {
+  font-size: 20px;
+  background-color: #FFF;
+  padding: 20px;
+  /*border-top: 10px solid white;*/
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100vh;
+  margin-bottom: 20px;
+}
+
+.director-profile {
+  float: left;
+  height: 200px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.thank-you-stewart {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.title {
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  padding: 20px;
+  color: #FFF;
+}
+
+.director {
+  background-color: #6ea1c8;
 }
 
 .stewart-text {
-  float: left;
-  width: 40%;
+  width: 70%;
   font-size: 20px;
+  margin: 0 auto;
 }
 
 .timeline {
   background-color: #ffe5c9;
   padding: 20px;
+  /*height: 100vh;*/
 }
+
+.issue {
+  padding: 20px;
+  border-top: 10px solid white;
+  height: 100vh;
+	width: 100%;
+  position: absolute;
+}
+
+.inequality {
+  background-color: pink
+}
+
+.podcast {
+  background-color: blue
+}
+
+
+
+
+.wellbeing {
+  background-color: red
+}
+
+.issue-text {
+  float: left;
+  width: 40%;
+  font-size: 20px;
+}
+
+#pinContainer {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
 
 h1,
 h2 {
@@ -156,8 +395,16 @@ h1 {
   font-size: 72px;
 }
 
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
 p {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 
@@ -292,9 +539,9 @@ header h1 {
   top: 0;
   left: 18px;
   height: 100%;
-  width: 6px;
+  width: 10px;
   /*background: #FFF;*/
-  background-image: url("../images/line.png");
+  background-image: url("../images/line-3.png");
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -345,13 +592,13 @@ header h1 {
 }
 .cd-timeline-img img {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 100px;
+  height: 100px;
   position: relative;
   left: 50%;
   top: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
+  margin-left: -50px;
+  margin-top: -50px;
 }
 .cd-timeline-img.cd-picture {
   background: #75ce66;
@@ -680,3 +927,40 @@ header h1 {
     transform: translateX(0);
   }
 }
+
+
+.spacer.s0 {
+	min-height: 1px;
+}
+.spacer.s1 {
+	min-height: 100px;
+}
+.spacer.s2 {
+	min-height: 200px;
+}
+.spacer.s3 {
+	min-height: 300px;
+}
+.spacer.s4 {
+	min-height: 400px;
+}
+.spacer.s5 {
+	min-height: 500px;
+}
+.spacer.s6 {
+	min-height: 600px;
+}
+.spacer.s7 {
+	min-height: 700px;
+}
+.spacer.s8 {
+	min-height: 800px;
+}
+.spacer.s9 {
+	min-height: 900px;
+}
+.spacer.s10 {
+	min-height: 1000px;
+}
+.spacer.s_viewport {
+	min-height: 100%;
