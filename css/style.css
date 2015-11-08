@@ -162,7 +162,7 @@ main .parallax-image {
   background-image: url('../images/welcome.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  /*background-size: cover;*/
+  /*background-size: ;*/
 }
 
 section .parallax-image {
@@ -619,16 +619,18 @@ header h1 {
 }
 .cd-timeline-img img {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   position: relative;
-  left: 50%;
-  top: 50%;
-  margin-left: -50px;
-  margin-top: -50px;
+  left: 40%;
+  top: 40%;
+  margin-left: -40px;
+  margin-top: -40px;
 }
 .cd-timeline-img.cd-picture {
-  background: #75ce66;
+  background-image: url("../images/sust_goals.jpeg");
+  background-size: cover;
+
 }
 .cd-timeline-img.cd-movie {
   background: #c03b44;
