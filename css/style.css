@@ -82,6 +82,7 @@ nav li {
 }
 
 .parallax-parent {
+  min-height: 500px;
 	height: 100vh;
   position: relative;
 	overflow: hidden;

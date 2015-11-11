@@ -182,13 +182,13 @@ var scene = new ScrollMagic.Scene({
 var scene = new ScrollMagic.Scene({
 											triggerElement: "#trigger-2"
 										})
-										.setTween("#animate2", 0.5, {scale: 1.5}) // trigger a TweenMax.to tween
+										.setTween("#animate2", 1.5, {scale: 1.8}) // trigger a TweenMax.to tween
 										.addTo(controller);
 
 
 	var scene = new ScrollMagic.Scene({
 											triggerElement: "#trigger-3"
 										})
-										.setTween("#animate3", 1, {scale: 1.5}) // trigger a TweenMax.to tween
+										.setTween("#animate3", 2, {scale: 1.5}) // trigger a TweenMax.to tween
 										.addTo(controller);
 });
