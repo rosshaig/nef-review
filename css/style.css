@@ -124,6 +124,14 @@ section.parallax-parent {
     position: absolute;
   }
 
+  .parallax-content-banking {
+    position: absolute;
+  }
+
+  .parallax-content-numbers {
+    position: absolute;
+  }
+
   .parallax-image-podcast {
     height: 200%;
     position: relative;
@@ -154,6 +162,28 @@ section.parallax-parent {
     background-position: top;
     background-size: contain;
   }
+
+
+  .parallax-image-banking {
+    height: 200%;
+    position: relative;
+    top: -50%;
+    background-image: url('../images/banking-system.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+  }
+
+  .parallax-image-numbers {
+    height: 200%;
+    position: relative;
+    top: -50%;
+    background-image: url('../images/numbers.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
 
 main {
   padding: 100px 0 100px 0;
@@ -190,9 +220,13 @@ footer {
 position: relative;
 text-align: center;
 color: #FFF;
-top: 40%;
+top: 50%;
 left: 50%;
 transform: translate3d(-50%, -50%, 0);
+}
+
+.footer-content p {
+  margin-top: 0px;
 }
 /*
 section.trigger {
@@ -293,6 +327,17 @@ section.trigger {
   /*border-top: 10px solid white;*/
 }
 
+.banking-title {
+  font-family: 'Fjalla One' sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #2fb9a4;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  /*border-top: 10px solid white;*/
+}
+
 .food-title {
   font-family: 'Fjalla One' sans-serif;
   text-align: center;
@@ -316,6 +361,61 @@ section.trigger {
   /*border-top: 10px solid white;*/
 }
 
+.numbers-title {
+  font-family: 'Fjalla One' sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #6c8da3;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  margin-bottom: 0;
+  /*border-top: 10px solid white;*/
+}
+
+.numbers-content {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  margin-left: none;
+  margin-right: none;
+
+}
+
+.twitter-followers {
+  float: left;
+  min-height: 200px;
+  width: 20%;
+  background-image: url("../images/twitter-followers.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+.podcast-plays {
+  float: right;
+  min-height: 200px;
+  width: 15%;
+  background-image: url("../images/podcast-plays.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 20%;
+  margin-right: 30%;
+}
+
+.media-mentions {
+  float: right;
+  min-height: 200px;
+  width: 20%;
+  background-image: url("../images/media-mentions.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 200px auto;
+}
 
 .podcast {
   font-size: 20px;
@@ -339,6 +439,12 @@ section.trigger {
 }
 
 .parallax-image-food {
+	height: 200%;
+	position: relative;
+	top: -100%;
+}
+
+.parallax-image-banking {
 	height: 200%;
 	position: relative;
 	top: -100%;
@@ -558,6 +664,7 @@ Modules - reusable parts of our design
 .cd-timeline-block {
   position: relative;
   margin: 2em 0;
+  z-index: 3000;
 }
 .cd-timeline-block:after {
   content: "";

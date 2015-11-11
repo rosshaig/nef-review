@@ -87,6 +87,14 @@ jQuery(document).ready(function($){
 				.setTween("#parallax-social > div", {y: "80%", ease: Linear.easeNone})
 				.addTo(controller);
 
+		new ScrollMagic.Scene({triggerElement: "#parallax-banking"})
+						.setTween("#parallax-banking > div", {y: "80%", ease: Linear.easeNone})
+						.addTo(controller);
+
+		new ScrollMagic.Scene({triggerElement: "#parallax-numbers"})
+							.setTween("#parallax-numbers > div", {y: "80%", ease: Linear.easeNone})
+							.addTo(controller);
+
 		var controller = new ScrollMagic.Controller();
 
 		// // define movement of panels
@@ -159,4 +167,28 @@ var flightpath = {
 						.setTween(tween)
 						.addTo(controller);
 
+
+//Animate figures
+
+var controller = new ScrollMagic.Controller();
+
+
+var scene = new ScrollMagic.Scene({
+						triggerElement: "#trigger-1"
+					})
+					.setTween("#animate1", 0.5, {scale: 1.5}) // trigger a TweenMax.to tween
+					.addTo(controller);
+
+var scene = new ScrollMagic.Scene({
+											triggerElement: "#trigger-2"
+										})
+										.setTween("#animate2", 0.5, {scale: 1.5}) // trigger a TweenMax.to tween
+										.addTo(controller);
+
+
+	var scene = new ScrollMagic.Scene({
+											triggerElement: "#trigger-3"
+										})
+										.setTween("#animate3", 1, {scale: 1.5}) // trigger a TweenMax.to tween
+										.addTo(controller);
 });
