@@ -166,7 +166,7 @@ main {
 }
 
 main .parallax-image {
-  background-image: url('../images/welcome.jpg');
+  background-image: url('../images/welcome-2015.jpg');
   background-repeat: no-repeat;
   background-position: center;
   /*background-size: ;*/
@@ -508,34 +508,6 @@ fieldset {
 }
 
 
-/*PARALLAX STUFF*/
-
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-
-}
-.parallax__layer--back {
-  transform: translateZ(-1px) scale(2);
-
-}
-
-
-
-
-
 /* TIMELINE */
 
 /* --------------------------------
@@ -556,33 +528,6 @@ Modules - reusable parts of our design
   clear: both;
 }
 
-/* --------------------------------
-
-Main components
-
--------------------------------- */
-/*header {
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  background: #303e49;
-}
-header h1 {
-  color: white;
-  font-size: 18px;
-  font-size: 1.125rem;
-}
-@media only screen and (min-width: 1170px) {
-  header {
-    height: 300px;
-    line-height: 300px;
-  }
-  header h1 {
-    font-size: 24px;
-    font-size: 1.5rem;
-  }
-}*/
-
 #cd-timeline {
   position: relative;
   padding: 2em 0;
@@ -597,7 +542,6 @@ header h1 {
   left: 18px;
   height: 100%;
   width: 10px;
-  /*background: #FFF;*/
   background-image: url("../images/line-3.png");
 }
 @media only screen and (min-width: 1170px) {
@@ -657,7 +601,7 @@ header h1 {
   margin-left: -40px;
   margin-top: -40px;
 }
-.cd-timeline-img.cd-picture {
+.cd-timeline-img.inequality-report {
   background-image: url("../images/report.jpeg");
   background-size: contain;
   background-position: center;
@@ -665,12 +609,88 @@ header h1 {
   background-color: #1369a4;
 
 }
-.cd-timeline-img.cd-movie {
-  background: #c03b44;
+
+.cd-timeline-img.scotland-blog {
+  background-image: url("../images/saltire.jpeg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #1369a4;
+
 }
-.cd-timeline-img.cd-location {
-  background: #f0ca45;
+
+.cd-timeline-img.rbi {
+  background-image: url("../images/trolly1.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+
 }
+
+.cd-timeline-img.wellbeing-report {
+  background-image: url("../images/talking-wellbeing.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1369a4;
+
+}
+
+.cd-timeline-img.where-does-money {
+  background-image: url("../images/where-does-money.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+
+}
+
+.cd-timeline-img.hs2 {
+  background-image: url("../images/hs2.jpeg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #1369a4;
+
+}
+
+.cd-timeline-img.responses-to-austerity {
+  background-image: url("../images/responses-to-austerity.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1369a4;
+
+}
+
+.cd-timeline-img.bemef {
+  background-image: url("../images/bemef.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+
+}
+
+.cd-timeline-img.nef-office {
+  background-image: url("../images/nef-office.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+
+}
+
+.cd-timeline-img.frequent-flyer {
+  background-image: url("../images/frequent-flyer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+
+}
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
@@ -757,6 +777,22 @@ header h1 {
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
 }
+
+
+.timeline-bg {
+  width: 100%;
+  min-height: 150px;
+  margin: 0 auto;
+  background-image: url("../images/timeline-img-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+
+
 .cd-timeline-content:after {
   content: "";
   display: table;
@@ -764,6 +800,7 @@ header h1 {
 }
 .cd-timeline-content h2 {
   color: #303e49;
+  font-size: 20px;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 20px;
