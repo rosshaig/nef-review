@@ -1,10 +1,3 @@
-/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in LDN
-*/
-
 
 /******************************************
 /* SETUP
@@ -42,502 +35,12 @@ body {
   font-family: 'Average', serif;
   padding-top: 0px;
   margin-top: 0px;
-
-
-}
-
-header {
-  height: 20vh;
-  top: 0;
-  position: fixed;
-  margin-top: 0px;
-  /*margin-bottom: 75px;*/
-  width: 100%;
-  background-color: #FFF;
-  color: white;
-  z-index: 9999999;
-  transition: all 0.4s ease;
-  box-shadow: 0 0 10px 5px rgba(0,0,0,.1);
-}
-
-header.sticky {
-  /*font-size: 24px;
-  line-height: 48px;*/
-  height: 15vh;
-  background: #FFF;
-  text-align: left;
-  box-shadow: 0 0 10px 5px rgba(0,0,0,.1);
-}
-
-nav ul {
-  list-style: none;
-  float: right;
-  /*width: 70%;*/
-}
-
-nav li {
-  display: inline;
-  padding: 5px;
-  font-family: 'Fjalla One', sans-serif;
-}
-
-.parallax-parent {
-  min-height: 500px;
-	height: 100vh;
-  position: relative;
-	overflow: hidden;
-}
-
-section.parallax-parent {
-	height: 60vh;
-  position: relative;
-	overflow: hidden;
-}
-
-.parallaxParent > * {
-  height: 200%;
-  position: relative;
-  top: -100%;
-}
-
-.parallax-image {
-	height: 200%;
-	position: relative;
-	top: -100%;
-}
-.parallax-content {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate3d(-50%, -50%, 0);
-}
-
-.parallax-parent-podcast {
-  position: relative;
-	overflow: hidden;
-}
-
-  .parallax-content-podcast {
-    position: absolute;
-  }
-
-  .parallax-content-food {
-    position: absolute;
-  }
-
-  .parallax-content-banking {
-    position: absolute;
-  }
-
-  .parallax-content-numbers {
-    position: absolute;
-  }
-
-  .parallax-image-podcast {
-    height: 200%;
-    position: relative;
-    top: -50%;
-    background-image: url('../images/breaking-the-news.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-  }
-
-  .parallax-image-food {
-    height: 200%;
-    position: relative;
-    top: -50%;
-    background-image: url('../images/true-cost-food.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-  }
-
-
-  .parallax-image-social {
-    height: 200%;
-    position: relative;
-    top: -50%;
-    background-image: url('../images/future-social-security.jpg');
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-  }
-
-
-  .parallax-image-banking {
-    height: 200%;
-    position: relative;
-    top: -50%;
-    background-image: url('../images/banking-system.jpg');
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-  }
-
-  .parallax-image-numbers {
-    height: 200%;
-    position: relative;
-    top: -50%;
-    background-image: url('../images/numbers.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-  }
-
-
-main {
-  padding: 100px 0 100px 0;
-  /*background-position: center bottom;
-  background-attachment: fixed;*/
-  margin-top: 0px;
-  width: 100%;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-main .parallax-image {
-  background-image: url('../images/welcome-2015.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  /*background-size: ;*/
-}
-
-section .parallax-image {
-  background-image: url('../images/thank-you-bg.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-footer {
-  width: 100%;
-  height: 100vh;
-  background-color: #fdcad0;
-  margin-top: 0px;
-}
-
-.footer-content {
-position: relative;
-text-align: center;
-color: #FFF;
-top: 50%;
-left: 50%;
-transform: translate3d(-50%, -50%, 0);
-}
-
-.footer-content p {
-  margin-top: 0px;
-}
-/*
-section.trigger {
-  width: 100%;
-  padding: 0px;
-  height: 400px;
-
-}*/
-
-
-.logo {
-  max-width: 400px;
-  height: 100%;
-  margin: 0 auto;
-  background-image: url("../images/nef_logo.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.logo img {
-  max-height: 100px;
-}
-
-#plane {
-  left: -120px;
-  position: absolute;
-}
-
-.letter-fly {
-  /*height: 100vh;*/
-
-}
-
-.introduction {
-  font-family: 'Fjalla One' sans-serif;
-  text-align: center;
-  color: white;
-  background-color: #fdcad0;
-  padding: 30px;
-  width: 100%;
-  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
-  /*border-top: 10px solid white;*/
-}
-
-.introduction-2 {
-  font-family: 'Fjalla One' sans-serif;
-  text-align: center;
-  color: white;
-  background-color: #f998aa;
-  padding: 10px;
-  width: 100%;
-  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
-  /*border-top: 10px solid white;*/
-}
-
-.timeline-title {
-  font-family: 'Fjalla One' sans-serif;
-  text-align: center;
-  color: white;
-  background-color: #ffcf9c;
-  padding: 20px;
-  width: 100%;
-  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
-  /*border-top: 10px solid white;*/
-}
-
-.timeline-subtitle {
-  font-family: 'Fjalla One' sans-serif;
-  text-align: center;
-  color: white;
-  background-color: #fda54a;
-  padding: 10px;
-  width: 100%;
-  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
-  /*border-top: 10px solid white;*/
-}
-
-
-
-.quote {
-  text-align: center;
-  font-size: 30px;
-  background-color: #f89abf;
-  width: 100%;
-  padding: 30px 100px;
-  color: white;
-}
-
-.podcast-title {
-  font-family: 'Fjalla One' sans-serif;
-  text-align: center;
-  color: white;
-  background-color: #f65831;
-  padding: 20px;
-  width: 100%;
-  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
-  /*border-top: 10px solid white;*/
-}
-
-.banking-title {
-  font-family: 'Fjalla One' sans-serif;
-  text-align: center;
-  color: white;
-  background-color: #2fb9a4;
-  padding: 20px;
-  width: 100%;
-  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
-  /*border-top: 10px solid white;*/
-}
-
-.food-title {
-  font-family: 'Fjalla One' sans-serif;
-  text-align: center;
-  color: white;
-  background-color: #f998aa;
-  padding: 20px;
-  width: 100%;
-  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
-  /*border-top: 10px solid white;*/
-}
-
-.social-title {
-  font-family: 'Fjalla One' sans-serif;
-  text-align: center;
-  color: white;
-  background-color: #c2daef;
-  padding: 20px;
-  width: 100%;
-  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
-  margin-bottom: 0;
-  /*border-top: 10px solid white;*/
-}
-
-.numbers-title {
-  font-family: 'Fjalla One' sans-serif;
-  text-align: center;
-  color: white;
-  background-color: #6c8da3;
-  padding: 20px;
-  width: 100%;
-  box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
-  margin-bottom: 0;
-  /*border-top: 10px solid white;*/
-}
-
-.numbers-content {
-  width: 100%;
-  padding: 20px;
-  background-color: white;
-  margin-left: none;
-  margin-right: none;
-
-}
-
-.twitter-followers {
-  float: left;
-  min-height: 200px;
-  width: 20%;
-  background-image: url("../images/twitter-followers.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  margin-top: 10%;
-  margin-left: 30%;
-}
-
-.podcast-plays {
-  float: right;
-  min-height: 200px;
-  width: 15%;
-  background-image: url("../images/podcast-plays.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  margin-top: 20%;
-  margin-right: 30%;
-}
-
-.media-mentions {
-  float: right;
-  min-height: 200px;
-  width: 20%;
-  background-image: url("../images/media-mentions.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  margin: 200px auto;
-}
-
-.podcast {
-  font-size: 20px;
-  /*background-color: #FFF;*/
-  padding: 20px;
-}
-
-.podcast-text {
-  width: 70%;
-  font-size: 30px;
-  margin: 0 auto;
-  padding: 30px 20px;
-}
-
-
-
-.parallax-image-podcast {
-	height: 200%;
-	position: relative;
-	top: -100%;
-}
-
-.parallax-image-food {
-	height: 200%;
-	position: relative;
-	top: -100%;
-}
-
-.parallax-image-banking {
-	height: 200%;
-	position: relative;
-	top: -100%;
-}
-
-
-.director-letter {
-  font-size: 20px;
-  background-color: #FFF;
-  padding: 20px;
-  /*border-top: 10px solid white;*/
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100vh;
-  margin-bottom: 20px;
-}
-
-.director-profile {
-  float: left;
-  height: 200px;
-  margin-right: 20px;
-  display: inline-block;
-}
-
-.thank-you-stewart {
-  width: 50%;
-  margin: 0 auto;
-  display: block;
-}
-
-.title {
-  width: 100%;
-  height: 30vh;
-  text-align: center;
-  padding: 20px;
-  color: #FFF;
-}
-
-.director {
-  background-color: #6ea1c8;
-}
-
-.stewart-text {
-  width: 70%;
-  font-size: 20px;
-  margin: 0 auto;
-}
-
-.timeline {
-  background-color: #ffe5c9;
-  padding: 20px;
-  /*height: 100vh;*/
-}
-
-.issue {
-  padding: 20px;
-  border-top: 10px solid white;
-  height: 100vh;
-	width: 100%;
-  position: absolute;
-}
-
-.inequality {
-  background-color: pink
-}
-
-.podcast {
-  background-color: blue
-}
-
-
-
-
-.wellbeing {
-  background-color: red
-}
-
-.issue-text {
-  float: left;
-  width: 40%;
-  font-size: 20px;
-}
-
-#pinContainer {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
 }
 
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Fjalla One', sans-serif;
   margin-top: 0px;
 }
@@ -552,11 +55,6 @@ h2 {
 
 h3 {
   font-size: 30px;
-  margin-top: 0px;
-}
-
-h6 {
-  margin: 0px;
 }
 
 p {
@@ -564,28 +62,425 @@ p {
 }
 
 
-.quick-signup {
-  border: none;
-  font-size: 20px;
+/******************************************
+/* PAGE LAYOUT
+/*******************************************/
+
+
+header {
+  height: 20vh;
+  top: 0;
+  position: fixed;
+  margin-top: 0px;
+  width: 100%;
+  background-color: #FFF;
+  color: white;
+  z-index: 100;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,.1);
 }
 
-fieldset {
-  border: 0px;
+  header.sticky {
+    height: 15vh;
+    background: #FFF;
+    text-align: left;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,.1);
+  }
 
-}
+  .logo {
+    max-width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url("../images/nef_logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .logo img {
+    max-height: 100px;
+  }
 
 
-.button {
-  border-radius: 5px;
-  background-color: white;
+  main {
+    padding: 100px 0 100px 0;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+
+  footer {
+    width: 100%;
+    height: 100vh;
+    background-color: #fdcad0;
+    margin-top: 0px;
+  }
+
+    .footer-content {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    color: #FFF;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    }
+
+      .footer-content p {
+        margin-top: 0px;
+      }
+
+    .quick-signup {
+      border: none;
+      font-size: 20px;
+    }
+
+    fieldset {
+      border: 0px;
+    }
+
+
+  #plane {
+    left: -120px;
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .letter-fly {
+    visibility: hidden;
+    max-height: 0;
+  }
+
+
+  .introduction {
+    font-family: 'Fjalla One' sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #fdcad0;
+    padding: 30px;
+    width: 100%;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  }
+
+  .introduction-2 {
+    font-family: 'Fjalla One' sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #f998aa;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  }
+
+  .director-letter {
+    font-size: 20px;
+    background-color: #FFF;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100vh;
+    margin-bottom: 20px;
+  }
+
+  .director-profile {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+  }
+
+  .thank-you-stewart {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .stewart-text {
+    width: 90%;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .timeline {
+    background-color: #ffe5c9;
+    padding: 20px;
+  }
+
+  .timeline-title {
+    font-family: 'Fjalla One' sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #ffcf9c;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  }
+
+  .timeline-subtitle {
+    font-family: 'Fjalla One' sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #fda54a;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  }
+
+  .quote {
+    text-align: center;
+    font-size: 30px;
+    background-color: #f89abf;
+    width: 100%;
+    padding: 30px 100px;
+    color: white;
+  }
+
+  .podcast-title {
+    font-family: 'Fjalla One' sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #f65831;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  }
+
+  .banking-title {
+    font-family: 'Fjalla One' sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #2fb9a4;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  }
+
+  .food-title {
+    font-family: 'Fjalla One' sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #f998aa;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  }
+
+  .social-title {
+    font-family: 'Fjalla One' sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #c2daef;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+    margin-bottom: 0;
+  }
+
+  .numbers-title {
+    font-family: 'Fjalla One' sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #6c8da3;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+    margin-bottom: 0;
+  }
+
+  .issue-text {
+    width: 90%;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 10px 10px;
+  }
+
+/******************************************
+/* PARALLAX SECTIONS
+/*******************************************/
+
+
+  .parallax-parent {
+    min-height: 500px;
+  	height: 100vh;
+    position: relative;
+  	overflow: hidden;
+  }
+
+  section.parallax-parent {
+  	height: 60vh;
+    position: relative;
+  	overflow: hidden;
+  }
+
+  .parallaxParent > * {
+    height: 200%;
+    position: relative;
+    top: -100%;
+  }
+
+  .parallax-image {
+  	height: 200%;
+  	position: relative;
+  	top: -100%;
+  }
+
+  main .parallax-image {
+    background-image: url('../images/welcome-2015.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .parallax-content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+
+    .parallax-content-issue {
+      position: absolute;
+    }
+
+    .parallax-image-podcast {
+      height: 200%;
+      position: relative;
+      top: -100%;
+      background-image: url('../images/breaking-the-news.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+    .parallax-image-food {
+      height: 200%;
+      position: relative;
+      top: -100%;
+      background-image: url('../images/true-cost-food.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+
+    .parallax-image-social {
+      height: 200%;
+      position: relative;
+      top: -100%;
+      background-image: url('../images/future-social-security.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+
+    .parallax-image-banking {
+      height: 200%;
+      position: relative;
+      top: -100%;
+      background-image: url('../images/banking-system.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+    .parallax-image-numbers {
+      height: 200%;
+      position: relative;
+      top: -100%;
+      background-image: url('../images/numbers.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+
+
+/******************************************
+/* YEAR IN NUMBERS
+/*******************************************/
+
+.numbers-content {
+  width: 100%;
   padding: 20px;
-  margin: 10px;
-  width: 150px;
-  height: 75px;
-  display: inline-block;
+  background-color: white;
+  margin-left: none;
+  margin-right: none;
 }
 
-/*Animation*/
+.number {
+  display: inline-block;
+  width: 100%;
+  min-height: 300px;
+  margin: 5% auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.twitter-followers {
+  background-image: url("../images/twitter-followers.jpg");
+}
+
+.podcast-plays {
+  background-image: url("../images/podcast-plays.png");
+}
+
+.media-mentions {
+  background-image: url("../images/media-mentions.png");
+}
+
+/******************************************
+/* RESPONSIVE
+/*******************************************/
+
+
+@media screen and (min-width:768px) {
+
+  #plane {
+    visibility: visible;
+  }
+
+  .letter-fly {
+    visibility: visible;
+    min-height: 100px;
+  }
+
+
+  .director-profile {
+    float: left;
+    height: 200px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+
+  .thank-you-stewart {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .stewart-text {
+    width: 70%;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .issue-text {
+    width: 70%;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+
+
+
+}
+
+/******************************************
+/* FLICKER ANIMATION
+/*******************************************/
 
 @keyframes flickerAnimation {
   0%   { opacity:0.5; }
@@ -615,21 +510,15 @@ fieldset {
 }
 
 
-/* TIMELINE */
+/******************************************
+/* TIMELINE
+/*******************************************/
 
-/* --------------------------------
-
-Modules - reusable parts of our design
-
--------------------------------- */
 .cd-container {
-  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
-  /*max-width: 1170px;*/
   margin: 0 auto;
 }
 .cd-container::after {
-  /* clearfix */
   content: '';
   display: table;
   clear: both;
@@ -642,7 +531,6 @@ Modules - reusable parts of our design
   margin-bottom: 2em;
 }
 #cd-timeline::before {
-  /* this is the vertical line */
   content: '';
   position: absolute;
   top: 0;
@@ -665,26 +553,32 @@ Modules - reusable parts of our design
 .cd-timeline-block {
   position: relative;
   margin: 2em 0;
-  z-index: 3000;
+  /*z-index: 3000;*/
 }
+
 .cd-timeline-block:after {
   content: "";
   display: table;
   clear: both;
 }
+
 .cd-timeline-block:first-child {
   margin-top: 0;
 }
+
 .cd-timeline-block:last-child {
   margin-bottom: 0;
 }
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline-block {
     margin: 4em 0;
   }
+
   .cd-timeline-block:first-child {
     margin-top: 0;
   }
+
   .cd-timeline-block:last-child {
     margin-bottom: 0;
   }
@@ -699,6 +593,7 @@ Modules - reusable parts of our design
   border-radius: 50%;
   box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
+
 .cd-timeline-img img {
   display: block;
   width: 80px;
@@ -709,13 +604,13 @@ Modules - reusable parts of our design
   margin-left: -40px;
   margin-top: -40px;
 }
+
 .cd-timeline-img.inequality-report {
   background-image: url("../images/report.jpeg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #1369a4;
-
 }
 
 .cd-timeline-img.scotland-blog {
@@ -724,7 +619,6 @@ Modules - reusable parts of our design
   background-position: top;
   background-repeat: no-repeat;
   background-color: #1369a4;
-
 }
 
 .cd-timeline-img.rbi {
@@ -733,7 +627,6 @@ Modules - reusable parts of our design
   background-position: center;
   background-repeat: no-repeat;
   background-color: #FFF;
-
 }
 
 .cd-timeline-img.wellbeing-report {
@@ -742,7 +635,6 @@ Modules - reusable parts of our design
   background-position: center;
   background-repeat: no-repeat;
   background-color: #1369a4;
-
 }
 
 .cd-timeline-img.where-does-money {
@@ -751,7 +643,6 @@ Modules - reusable parts of our design
   background-position: center;
   background-repeat: no-repeat;
   background-color: #FFF;
-
 }
 
 .cd-timeline-img.hs2 {
@@ -760,7 +651,6 @@ Modules - reusable parts of our design
   background-position: top;
   background-repeat: no-repeat;
   background-color: #1369a4;
-
 }
 
 .cd-timeline-img.responses-to-austerity {
@@ -769,7 +659,6 @@ Modules - reusable parts of our design
   background-position: center;
   background-repeat: no-repeat;
   background-color: #1369a4;
-
 }
 
 .cd-timeline-img.bemef {
@@ -778,7 +667,6 @@ Modules - reusable parts of our design
   background-position: center;
   background-repeat: no-repeat;
   background-color: #FFF;
-
 }
 
 .cd-timeline-img.nef-office {
@@ -787,7 +675,6 @@ Modules - reusable parts of our design
   background-position: center;
   background-repeat: no-repeat;
   background-color: #FFF;
-
 }
 
 .cd-timeline-img.frequent-flyer {
@@ -796,7 +683,6 @@ Modules - reusable parts of our design
   background-position: center;
   background-repeat: no-repeat;
   background-color: #FFF;
-
 }
 
 @media only screen and (min-width: 1170px) {
@@ -805,7 +691,6 @@ Modules - reusable parts of our design
     height: 60px;
     left: 50%;
     margin-left: -30px;
-    /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
   }
@@ -877,6 +762,7 @@ Modules - reusable parts of our design
     transform: scale(1);
   }
 }
+
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
@@ -897,10 +783,6 @@ Modules - reusable parts of our design
   background-size: contain;
 }
 
-
-
-
-
 .cd-timeline-content:after {
   content: "";
   display: table;
@@ -912,7 +794,6 @@ Modules - reusable parts of our design
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 20px;
-  /*font-size: 0.8125rem;*/
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
@@ -953,7 +834,6 @@ Modules - reusable parts of our design
   }
   .cd-timeline-content p {
     font-size: 20px;
-    /*font-size: 1rem;*/
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
@@ -1013,7 +893,6 @@ Modules - reusable parts of our design
 }
 
 @media only screen and (min-width: 1170px) {
-  /* inverse bounce effect on even content blocks */
   .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
     -webkit-animation: cd-bounce-2-inverse 0.6s;
     -moz-animation: cd-bounce-2-inverse 0.6s;
@@ -1134,40 +1013,3 @@ Modules - reusable parts of our design
     transform: translateX(0);
   }
 }
-
-
-.spacer.s0 {
-	min-height: 1px;
-}
-.spacer.s1 {
-	min-height: 100px;
-}
-.spacer.s2 {
-	min-height: 200px;
-}
-.spacer.s3 {
-	min-height: 300px;
-}
-.spacer.s4 {
-	min-height: 400px;
-}
-.spacer.s5 {
-	min-height: 500px;
-}
-.spacer.s6 {
-	min-height: 600px;
-}
-.spacer.s7 {
-	min-height: 700px;
-}
-.spacer.s8 {
-	min-height: 800px;
-}
-.spacer.s9 {
-	min-height: 900px;
-}
-.spacer.s10 {
-	min-height: 1000px;
-}
-.spacer.s_viewport {
-	min-height: 100%;

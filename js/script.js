@@ -1,8 +1,10 @@
 jQuery(document).ready(function($){
 
+//SMOOTH SCROLL
+
 	$(function(){
 
-	        var $window = $(window);
+	  var $window = $(window);
 		var scrollTime = 1.2;
 		var scrollDistance = 200;
 
@@ -23,7 +25,7 @@ jQuery(document).ready(function($){
 		});
 	});
 
-
+//STICKY HEADER
 
 	$(window).scroll(function() {
 	if ($(this).scrollTop() > 500){
@@ -35,20 +37,13 @@ jQuery(document).ready(function($){
 	});
 
 
-
-
-
-
-
-
+//TIMELINE
 
 	var timelineBlocks = $('.cd-timeline-block'),
 		offset = 0.8;
 
-	//hide timeline blocks which are outside the viewport
 	hideBlocks(timelineBlocks, offset);
 
-	//on scolling, show/animate timeline blocks when enter the viewport
 	$(window).on('scroll', function(){
 		(!window.requestAnimationFrame)
 			? setTimeout(function(){ showBlocks(timelineBlocks, offset); }, 100)
@@ -96,25 +91,6 @@ jQuery(document).ready(function($){
 							.addTo(controller);
 
 		var controller = new ScrollMagic.Controller();
-
-		// // define movement of panels
-		// var wipeAnimation = new TimelineMax()
-		// 	// .fromTo("section.panel.turqoise", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
-		// 	// .fromTo("section.panel.green",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
-		// 	// .fromTo("section.inequality", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone}) // in from top
-		// 	.fromTo("section.issue.podcast", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone}) // in from top
-		// 	.fromTo("section.issue.wellbeing", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone}); // in from top
-		//
-		// // create scene to pin and link animation
-		// new ScrollMagic.Scene({
-		// 		triggerElement: "#pinContainer",
-		// 		triggerHook: "onLeave",
-		// 		duration: "300%"
-		// 	})
-		// 	.setPin("#pinContainer")
-		// 	.setTween(wipeAnimation)
-		// 	.addTo(controller);
-
 
 
 
@@ -170,25 +146,25 @@ var flightpath = {
 
 //Animate figures
 
-var controller = new ScrollMagic.Controller();
-
-
-var scene = new ScrollMagic.Scene({
-						triggerElement: "#trigger-1"
-					})
-					.setTween("#animate1", 0.5, {scale: 1.5}) // trigger a TweenMax.to tween
-					.addTo(controller);
-
-var scene = new ScrollMagic.Scene({
-											triggerElement: "#trigger-2"
-										})
-										.setTween("#animate2", 1.5, {scale: 1.8}) // trigger a TweenMax.to tween
-										.addTo(controller);
-
-
-	var scene = new ScrollMagic.Scene({
-											triggerElement: "#trigger-3"
-										})
-										.setTween("#animate3", 2, {scale: 1.5}) // trigger a TweenMax.to tween
-										.addTo(controller);
+// var controller = new ScrollMagic.Controller();
+//
+//
+// var scene = new ScrollMagic.Scene({
+// 						triggerElement: "#trigger-1"
+// 					})
+// 					.setTween("#animate1", 0.5, {scale: 1.5}) // trigger a TweenMax.to tween
+// 					.addTo(controller);
+//
+// var scene = new ScrollMagic.Scene({
+// 											triggerElement: "#trigger-2"
+// 										})
+// 										.setTween("#animate2", 0.5, {scale: 1.5}) // trigger a TweenMax.to tween
+// 										.addTo(controller);
+//
+//
+// 	var scene = new ScrollMagic.Scene({
+// 											triggerElement: "#trigger-3"
+// 										})
+// 										.setTween("#animate3", 0.5, {scale: 1.5}) // trigger a TweenMax.to tween
+// 										.addTo(controller);
 });
