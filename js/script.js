@@ -1,11 +1,5 @@
 jQuery(document).ready(function($){
 
-	if($(window).width() < 1024){
-	$(function() {
-	 jQuery.fx.off = true;
-	});
-	}
-
 //SMOOTH SCROLL
 
 	$(function(){
