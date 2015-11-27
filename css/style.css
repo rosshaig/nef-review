@@ -321,15 +321,16 @@ header {
   }
 
   .parallax-image {
-  	height: 200%;
+  	height: 120%;
   	position: relative;
-  	top: -100%;
   }
 
   main .parallax-image {
     background-image: url('../images/welcome-2015.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    /*top: 1%;*/
   }
 
 
@@ -345,19 +346,19 @@ header {
     }
 
     .parallax-image-podcast {
-      height: 100%;
+      height: 120%;
       position: relative;
-      top: -20%;
+      top: -10%;
       background-image: url('../images/breaking-the-news.jpg');
       background-repeat: no-repeat;
       background-position: center;
-      background-size: cover;
+      background-size: contain;
     }
 
     .parallax-image-food {
-      height: 200%;
+      height: 120%;
       position: relative;
-      /*top: -100%;*/
+      top: -10%;
       background-image: url('../images/true-cost-food.jpg');
       background-repeat: no-repeat;
       background-position: center;
@@ -366,9 +367,9 @@ header {
 
 
     .parallax-image-social {
-      height: 200%;
+      height: 120%;
       position: relative;
-      /*top: -100%;*/
+      top: -10%;
       background-image: url('../images/future-social-security.jpg');
       background-repeat: no-repeat;
       background-position: center;
@@ -377,9 +378,9 @@ header {
 
 
     .parallax-image-banking {
-      height: 200%;
+      height: 120%;
       position: relative;
-      /*top: -100%;*/
+      top: -10%;
       background-image: url('../images/banking-system.jpg');
       background-repeat: no-repeat;
       background-position: center;
@@ -387,9 +388,9 @@ header {
     }
 
     .parallax-image-numbers {
-      height: 200%;
+      height: 120%;
       position: relative;
-      /*top: -100%;*/
+      top: -10%;
       background-image: url('../images/numbers.png');
       background-repeat: no-repeat;
       background-position: center;
@@ -473,6 +474,19 @@ header {
     font-size: 30px;
     margin: 0 auto;
     padding: 30px 20px;
+  }
+
+  .parallax-image {
+  	height: 200%;
+  	position: relative;
+  	top: -100%;
+  }
+
+  main .parallax-image {
+    background-image: url('../images/welcome-2015.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -100%;
   }
 
   .parallax-image-podcast {
