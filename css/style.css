@@ -345,9 +345,9 @@ header {
     }
 
     .parallax-image-podcast {
-      height: 200%;
+      height: 100%;
       position: relative;
-      top: -100%;
+      top: -20%;
       background-image: url('../images/breaking-the-news.jpg');
       background-repeat: no-repeat;
       background-position: center;
@@ -357,7 +357,7 @@ header {
     .parallax-image-food {
       height: 200%;
       position: relative;
-      top: -100%;
+      /*top: -100%;*/
       background-image: url('../images/true-cost-food.jpg');
       background-repeat: no-repeat;
       background-position: center;
@@ -368,7 +368,7 @@ header {
     .parallax-image-social {
       height: 200%;
       position: relative;
-      top: -100%;
+      /*top: -100%;*/
       background-image: url('../images/future-social-security.jpg');
       background-repeat: no-repeat;
       background-position: center;
@@ -379,7 +379,7 @@ header {
     .parallax-image-banking {
       height: 200%;
       position: relative;
-      top: -100%;
+      /*top: -100%;*/
       background-image: url('../images/banking-system.jpg');
       background-repeat: no-repeat;
       background-position: center;
@@ -389,7 +389,7 @@ header {
     .parallax-image-numbers {
       height: 200%;
       position: relative;
-      top: -100%;
+      /*top: -100%;*/
       background-image: url('../images/numbers.png');
       background-repeat: no-repeat;
       background-position: center;
@@ -474,6 +474,59 @@ header {
     margin: 0 auto;
     padding: 30px 20px;
   }
+
+  .parallax-image-podcast {
+    height: 200%;
+    position: relative;
+    top: -100%;
+    background-image: url('../images/breaking-the-news.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .parallax-image-food {
+    height: 200%;
+    position: relative;
+    top: -100%;
+    background-image: url('../images/true-cost-food.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+
+  .parallax-image-social {
+    height: 200%;
+    position: relative;
+    top: -100%;
+    background-image: url('../images/future-social-security.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+
+  .parallax-image-banking {
+    height: 200%;
+    position: relative;
+    top: -100%;
+    background-image: url('../images/banking-system.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .parallax-image-numbers {
+    height: 200%;
+    position: relative;
+    top: -100%;
+    background-image: url('../images/numbers.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
 
 
 
