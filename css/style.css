@@ -351,7 +351,7 @@ header {
       background-image: url('../images/breaking-the-news.jpg');
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain;
+      background-size: cover;
     }
 
     .parallax-image-food {
