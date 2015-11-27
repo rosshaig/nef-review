@@ -12,16 +12,10 @@ jQuery(document).ready(function($){
 
 
 if (jQuery.browser.mobile){
-	alert("BLAH");
 
 }
 
 else {
-	alert("FLEH");
-}
-
-
-//SMOOTH SCROLL
 
 	$(function(){
 
@@ -163,6 +157,14 @@ var flightpath = {
 						.setPin("#target")
 						.setTween(tween)
 						.addTo(controller);
+
+
+
+}
+
+
+//SMOOTH SCROLL
+
 
 
 //Animate figures
