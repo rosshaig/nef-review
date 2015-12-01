@@ -166,9 +166,7 @@ header {
   background-image: url("../images/twitter_white.png");
   width: 50px;
   height: 50px;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
+  color: transparent;
 }
 
 .facebook-share {
@@ -176,9 +174,7 @@ header {
   background-image: url("../images/facebook_white.png");
   width: 50px;
   height: 50px;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
+  color: transparent;
 }
     fieldset {
       border: 0px;
