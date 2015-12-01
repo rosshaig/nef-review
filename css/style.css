@@ -167,6 +167,8 @@ header {
   width: 50px;
   height: 50px;
   text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .facebook-share {
@@ -175,6 +177,8 @@ header {
   width: 50px;
   height: 50px;
   text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
     fieldset {
       border: 0px;
