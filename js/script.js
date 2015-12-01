@@ -93,6 +93,10 @@ else {
 			.setTween("#parallax-food > div", {y: "80%", ease: Linear.easeNone})
 			.addTo(controller);
 
+		new ScrollMagic.Scene({triggerElement: "#parallax-money"})
+			.setTween("#parallax-money > div", {y: "80%", ease: Linear.easeNone})
+			.addTo(controller);
+
 		new ScrollMagic.Scene({triggerElement: "#parallax-social"})
 				.setTween("#parallax-social > div", {y: "80%", ease: Linear.easeNone})
 				.addTo(controller);

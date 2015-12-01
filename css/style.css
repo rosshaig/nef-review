@@ -274,6 +274,16 @@ header {
     box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
   }
 
+  .money-title {
+    font-family: 'Fjalla One' sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #f20088;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+  }
+
   .social-title {
     font-family: 'Fjalla One' sans-serif;
     text-align: center;
@@ -371,6 +381,16 @@ header {
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
+    }
+
+    .parallax-image-money {
+      height: 120%;
+      position: relative;
+      top: -10%;
+      background-image: url('../images/03.jpg');
+      background-repeat: none;
+      background-position: center;
+      background-size: cover;
     }
 
 
@@ -517,6 +537,17 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+  }
+
+
+  .parallax-image-money {
+    height: 200%;
+    position: relative;
+    top: -100%;
+    background-image: url('../images/03.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
 
