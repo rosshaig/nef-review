@@ -534,6 +534,26 @@ header {
   background-image: url("../images/media-mentions.png");
 }
 
+.facebook-likes {
+  background-image: url("../images/facebook_likes.jpg");
+}
+
+.global-reach {
+  background-image: url("../images/global_reach.jpg");
+}
+
+.youtube-minutes {
+  background-image: url("../images/minutes_youtube.jpg");
+}
+
+.reports-published {
+  background-image: url("../images/reports_published.jpg");
+}
+
+.packed-events {
+  background-image: url("../images/packed_events.jpg");
+}
+
 /******************************************
 /* RESPONSIVE
 /*******************************************/
