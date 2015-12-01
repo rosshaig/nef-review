@@ -419,10 +419,11 @@ header {
       height: 120%;
       position: relative;
       top: -10%;
-      background-image: url('../images/numbers.png');
+      background-image: url('../images/year-numbers.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
+      background-color: #6c8da3;
     }
 
 
@@ -574,9 +575,10 @@ header {
 
   .parallax-image-numbers {
     height: 200%;
+    background-color: #6c8da3;
     position: relative;
     top: -100%;
-    background-image: url('../images/numbers.png');
+    background-image: url('../images/year-numbers.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
