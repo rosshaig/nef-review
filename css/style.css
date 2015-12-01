@@ -66,6 +66,10 @@ p {
   font-style: italic;
 }
 
+a {
+  text-decoration: none;
+  color: #f998aa;
+}
 
 
 /******************************************
@@ -410,7 +414,7 @@ header {
       height: 120%;
       position: relative;
       top: -10%;
-      background-image: url('../images/true-cost-food.jpg');
+      background-image: url('../images/01.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
@@ -431,7 +435,7 @@ header {
       height: 120%;
       position: relative;
       top: -10%;
-      background-image: url('../images/future-social-security.jpg');
+      background-image: url('../images/07.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
@@ -442,7 +446,7 @@ header {
       height: 120%;
       position: relative;
       top: -10%;
-      background-image: url('../images/banking-system.jpg');
+      background-image: url('../images/05.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
@@ -602,7 +606,7 @@ header {
     height: 200%;
     position: relative;
     top: -100%;
-    background-image: url('../images/true-cost-food.jpg');
+    background-image: url('../images/01.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -624,7 +628,7 @@ header {
     height: 200%;
     position: relative;
     top: -100%;
-    background-image: url('../images/future-social-security.jpg');
+    background-image: url('../images/07.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -635,7 +639,7 @@ header {
     height: 200%;
     position: relative;
     top: -100%;
-    background-image: url('../images/banking-system.jpg');
+    background-image: url('../images/05.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
