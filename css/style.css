@@ -134,7 +134,7 @@ header {
     text-align: center;
     padding: 20px;
     color: #FFF;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
     }
@@ -143,11 +143,39 @@ header {
         margin-top: 0px;
       }
 
+      .footer-content h3 {
+        font-size: 26px;
+      }
+
     .quick-signup {
       border: none;
       font-size: 20px;
     }
 
+.share-links {
+  list-style: none;
+
+}
+.share-links li {
+  display: inline;
+  margin: 10px;
+}
+
+.twitter-share {
+  display: inline-block;
+  background-image: url("../images/twitter_white.png");
+  width: 50px;
+  height: 50px;
+  text-indent: 100%;
+}
+
+.facebook-share {
+  display: inline-block;
+  background-image: url("../images/facebook_white.png");
+  width: 50px;
+  height: 50px;
+  text-indent: 100%;
+}
     fieldset {
       border: 0px;
     }
@@ -508,8 +536,8 @@ header {
   width: 100%;
   padding: 20px;
   background-color: white;
-  margin-left: none;
-  margin-right: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .number {
