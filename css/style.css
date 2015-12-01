@@ -688,7 +688,15 @@ header {
   }
 
 
-
+  .number {
+    display: inline-block;
+    width: 30%;
+    min-height: 300px;
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
 
 }
 
