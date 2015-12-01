@@ -61,6 +61,11 @@ p {
   font-size: 24px;
 }
 
+.funder-thanks {
+  font-size: 23px;
+  font-style: italic;
+}
+
 
 
 /******************************************
@@ -103,12 +108,13 @@ header {
   }
 
 
-  main {
+  .main {
     padding: 100px 0 100px 0;
     margin-top: 0px;
     width: 100%;
     text-align: center;
     text-transform: uppercase;
+    /*display: block;*/
   }
 
 
@@ -192,9 +198,10 @@ header {
   }
 
   .thank-you-stewart {
-    width: 80%;
+    width: 60%;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+    padding: 20px;
   }
 
   .stewart-text {
@@ -301,7 +308,7 @@ header {
 /*******************************************/
 
 
-  .parallax-parent {
+  .main-parallax-parent {
     min-height: 500px;
   	height: 100vh;
     position: relative;
@@ -325,12 +332,13 @@ header {
   	position: relative;
   }
 
-  main .parallax-image {
+  .parallax-image-main {
     background-image: url('../images/welcome-2015.jpg');
-    background-repeat: no-repeat;
+    background-repeat: none;
     background-position: center;
-    background-size: cover;
-    /*top: 1%;*/
+    position: relative;
+    height: 200%;
+    top: -100%;
   }
 
 
@@ -482,10 +490,12 @@ header {
   	top: -100%;
   }
 
-  main .parallax-image {
+  .parallax-image-main {
     background-image: url('../images/welcome-2015.jpg');
-    background-repeat: no-repeat;
+    background-repeat: none;
     background-position: center;
+    position: relative;
+    height: 200%;
     top: -100%;
   }
 
