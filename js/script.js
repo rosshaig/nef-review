@@ -105,6 +105,18 @@ else {
 						.setTween("#parallax-banking > div", {y: "80%", ease: Linear.easeNone})
 						.addTo(controller);
 
+		new ScrollMagic.Scene({triggerElement: "#parallax-local"})
+						.setTween("#parallax-local > div", {y: "80%", ease: Linear.easeNone})
+						.addTo(controller);
+
+		new ScrollMagic.Scene({triggerElement: "#parallax-wellbeing"})
+						.setTween("#parallax-wellbeing > div", {y: "80%", ease: Linear.easeNone})
+						.addTo(controller);
+
+		new ScrollMagic.Scene({triggerElement: "#parallax-inequality"})
+						.setTween("#parallax-inequality > div", {y: "80%", ease: Linear.easeNone})
+						.addTo(controller);
+
 		new ScrollMagic.Scene({triggerElement: "#parallax-numbers"})
 							.setTween("#parallax-numbers > div", {y: "80%", ease: Linear.easeNone})
 							.addTo(controller);
