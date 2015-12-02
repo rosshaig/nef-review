@@ -582,6 +582,10 @@ header {
   background-image: url("../images/packed_events.jpg");
 }
 
+.average-donation {
+  background-image: url("../images/average_donation.jpg");
+}
+
 /******************************************
 /* RESPONSIVE
 /*******************************************/
