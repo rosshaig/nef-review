@@ -121,6 +121,15 @@ header {
     /*display: block;*/
   }
 
+.cover {
+  width: 150px;
+  display: inline-block;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,.1);
+}
+
+.download-button {
+  margin: 15px auto;
+}
 
   footer {
     width: 100%;
