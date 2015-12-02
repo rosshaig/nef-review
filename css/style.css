@@ -131,13 +131,15 @@ header {
   }
 
     .footer-content {
+    width: 80%;
+    margin: 0 auto;
     position: relative;
     text-align: center;
     padding: 20px;
     color: #FFF;
-    top: 55%;
-    left: 50%;
-    transform: translate3d(-50%, -50%, 0);
+    top: 30%;
+    /*left: 50%;*/
+    /*transform: translate3d(-50%, 0, 0);*/
     }
 
       .footer-content p {
