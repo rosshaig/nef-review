@@ -9,7 +9,6 @@
   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
   box-sizing: border-box; /* IE */
   overflow-x:none !important;
-  border: 1px solid black;
 }
 
 /* Clear fix hack */
@@ -125,7 +124,7 @@ header {
 
   footer {
     width: 100%;
-    height: 100vh;
+    height: 180vh;
     background-color: #f998aa;
     margin-top: 0px;
   }
@@ -751,6 +750,11 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+  }
+
+  footer {
+    width: 100%;
+    height: 100vh;
   }
 
 }
