@@ -9,6 +9,7 @@
   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
   box-sizing: border-box; /* IE */
   overflow-x:none !important;
+  border: 1px solid black;
 }
 
 /* Clear fix hack */
