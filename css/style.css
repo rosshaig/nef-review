@@ -385,6 +385,10 @@ header {
     margin-bottom: 0;
   }
 
+  .numbers-title a {
+    color: #FFF;
+  }
+
   .issue-text {
     width: 90%;
     font-size: 30px;
